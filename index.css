@@ -1,0 +1,138 @@
+
+body
+{
+    padding: 0px;
+    background-color: black;;
+}
+
+#curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/1.jpg');
+    background-size: cover;
+    background-position: center bottom;
+  }
+
+#curtain:hover {
+    transform: translateY(-5%);
+    transition: transform 0.2s;
+  }
+
+.lamp
+{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.hang
+{
+  position: absolute;
+  top: 58px;
+  left: 87px;
+}
+
+.hang_wire
+{
+  position: relative;
+  background-color: rgb(158,158,156);
+  width: 2px;
+  height: 33px;
+}
+
+.hang_ball
+{
+  position: relative;
+  top: -5px;
+  right: 3px;
+  background-color: rgb(226, 201, 98);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.light
+{
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 420px solid rgb(255,255,0,0.5);
+  width: 65px;
+  border-top: 50px solid transparent;
+  background-color: rgba(0,0,255,0);
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.mage
+{
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-95%);
+  width: 200px;
+  height: 200px;
+}
+
+.hat
+{
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  transform: translateX(70%);
+  width: 100px;
+  height: 100px;
+}
+
+.pigeon
+{
+  position: absolute;
+  top: 335px;
+  left: 58%;
+  width: 50px;
+  height: 50px;
+}
+
+.rabbit
+{
+  position: absolute;
+  top: 335px;
+  left: 58%;
+  width: 50px;
+  height: 50px;
+}
+
+.putInHat
+{
+  transform: translateY(100px);
+  opacity:0;
+  transition: transform 0.5s;
+}
+
